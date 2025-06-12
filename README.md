@@ -28,3 +28,23 @@ ChatGroqDame is a Streamlit-based RAG (Retrieval-Augmented Generation) app using
 ```bash
 git clone https://github.com/YOUR_USERNAME/ChatGroqDame.git
 cd ChatGroqDame
+```
+
+### 2. Create .env
+
+```bash
+cp .env.example .env
+# Fill in your API keys inside .env
+```
+
+### 3. Install Dependencies
+
+```bash
+pip install -r requirements.txt
+```
+
+### 4. Run the App
+
+```bash
+streamlit run app.py
+```
